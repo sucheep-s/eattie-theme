@@ -1,0 +1,421 @@
+<!DOCTYPE html>         
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Eattie User Guide</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+  </head>
+
+	<!--Body-->
+  <body>
+  	
+    <!--Wrapper for Pushing Footer-->
+    <div class="wrapper">
+    
+      <!--Header-->
+      <div class="header">
+        <div class="container">
+        	<a class="logo" href="http://8guild.com" target="_blank"><img src="img/logo.png" alt="8 Guild"/></a>
+          <div class="heading">
+            <h1 class="normal">Eattie Responsive HTML5 Restaurant Template V1.2</h1>
+            <h3>A Beautiful Template for Your Restaurant.</h3>
+            <h5> Created for You by <a href="http://8guild.com" target="_blank">8Guild</a></h5>
+          </div>
+        </div>
+      </div><!--Close Header-->
+      
+      <div class="container content">
+      
+        <div class="tabs">
+          <ul class="tabs-links">
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#FoldersFiles">Folders and Files</a></li>
+            <li><a href="#EditHTML">Customizing Template<br/>(Editing HTML Files)</a></li>
+            <li><a href="#EditCSS">Changing Look and Feel<br/>(Editing CSS Files)</a></li>
+            <li><a href="#Plugins">jQuery Plugins<br/>(Editing JS Files)</a></li>
+            <li><a href="#Photoshop">Photoshop Files</a></li>
+            <li><a href="#Credits">Sources and Credits</a></li>
+          </ul>
+          <div class="tabs-panes">
+          
+            <!--Tabs Pane-->
+            <div id="Introduction" class="tabs-pane">
+              <h2>Introduction</h2>
+              <div class="group">
+                <img class="fltl" src="img/screenshots/introduction.jpg" alt="Introduction"/>
+                <p class="justify"><strong>Eattie</strong> is responsive HTML5 Restaurant Template. It comes with two options: <strong>Slideshow Background</strong> or <strong>Static Background</strong>. And to switch between them you just need to add or remove images. That simple!</p>
+                <p>Besides horizontally scrolling home page <strong>Eattie</strong> features <strong>6</strong> additional pages: <strong>2 menu layouts, 2 recipes pages and 2 reviews pages.</strong></p>
+                <p class="underline"><strong>Eattie</strong> is a tribute to modern trends in web design which incorporate following main traits:</p>
+                <ul class="inside">
+                  <li>Flat design meaning no gradient, inner shadows or 3D effects</li>
+                  <li>Fullscreen image slideshow</li>
+                  <li>Home page horizontal scrolling navigation</li>
+                  <li>Scroll effects</li>
+                  <li>Sticky header</li>
+                  <li>Fully responsive design</li>
+                </ul>
+                <p><strong>Eattie</strong> has them all. Enjoy!</p>
+              </div>
+            </div><!--/Tabs Pane-->
+          
+            <!--Tabs Pane-->
+            <div id="FoldersFiles" class="tabs-pane">
+              <h2>Folders and Files</h2>
+              <table width="100%" border="1">
+                <tr>
+                  <th scope="col">File Path</th>
+                  <th scope="col">Description</th>
+                </tr>
+                <tr>
+                  <td>Main</td>
+                  <td>Root folder</td>
+                </tr>
+                <tr>
+                  <td>Main/PSD</td>
+                  <td>
+                  	PSD Folder includes all .psd files, <span class="underline">which are:</span><br/>
+                    home.psd - Layered psd file of Home page;<br/>
+                    menu1.psd - Layered psd file of 1 column Menu layout (Accordion)<br/>
+                    menu2.psd - Layered psd file of 2 columns Menu layout;<br/>
+                    recipes.psd - Layered psd file of Recipes page;<br/>
+                    recipes-single.psd - Layered psd file of open recipe page;<br/>
+                    reviews.psd - Layered psd file of Reviews page;<br/>
+                    reviews-single.psd - Layered psd file of open review page;
+                  </td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie</td>
+                  <td>This folder includes all HTML, CSS, Javascript, Fonts and Image files of the template.</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/index.html</td>
+                  <td>This is Template Option Page. This page is for demonstration purpose only. If you don't need it simply remove it.</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/home-slideshow.html</td>
+                  <td>Background Slideshow Version of the template. If you decided to use Background Slideshow in Intro section this file is one you want to modify. And the first step is to change it's name from home-slideshow to index.html</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/home-static.html</td>
+                  <td>Static Background Version of the template. If you decided to use Static Background in Intro section this file is one you need to modify. And the first step is to change it's name from home-static to index.html. The two versions has the same structure and code, the only difference is that in home-slideshow.html we used more than 1 image in Intro section. So if you redice the number of images to 1, it will behave as static background.</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/css</td>
+                  <td>This folder includes all .css files. To change the appearance of the template you need to modify files: style.css.</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/js</td>
+                  <td>This folder includes all .js files. To edit Javascript functionality of the template you need to modify files: scripts-main.js for Home (Main) page AND scripts-secondary.js for Other (Secondary) pages. It also includes 2 subfolders: libs and plugins</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/js/libs</td>
+                  <td>This folder includes all JavaScript Libraries files like jQuery.</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/js/plugins</td>
+                  <td>This folder includes all jQuery Plugins used in this template.</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/img</td>
+                  <td>This folder includes all graphic assets of the template. When you need to change images, slides, backgrounds, etc..this is the place to go.</td>
+                </tr>
+                <tr>
+                  <td>Main/Eattie/fonts</td>
+                  <td>This folder includes Font Awsome generated Fonts. This is iconic font, that gives you customizable vector icons (more than 350 icons). For more information on how it works, please visit <a href="http://fontawesome.io/">Font Awsome Official Website</a></td>
+                </tr>
+              </table>
+            </div><!--Close Tabs Pane-->
+            
+            <!--Tabs Pane-->
+            <div id="EditHTML" class="tabs-pane">
+              <h2>Customizing Template (Editing HTML Files)</h2>
+              <h3>First Step</h3>
+              <p>When you desided which version you are going to use, the first step to do to start customizing chosen template is to change file name from <strong>home-slideshow.html/home-static.html to index.html</strong>. This is important because when you upload your files to server it's automatically searching for index.html file to load.</p>
+              <p>Another important thing to do is to change navigation links: <strong>home and logo links should point to index.html (now it's home-slideshow.html by default)</strong></p>
+              <p>In order to avoid uploading extra content to the server you may remove some folders and files that are for Options (Demo) page: <strong>preview folder; preview-page.css.</strong></p>
+              <h3>HTML Structure (Home Page)</h3>
+              <p>HTML Code devided into sections that are represented by <strong>&lt;section&gt;</strong> tag. Each section is a block of content. Thus, if you want to change content of About block you do it in section with <strong>id=&#34;about&#34;</strong>. Document is properly commented so you won't get lost. Please note the <strong>id</strong> tags of each section correlate with <strong>anchors</strong> in the menu to allow scrolling navigation.</p>
+              <pre><code>
+                <span class="html-comment">&lt;!--Preloader--&gt;</span>
+                &lt;div id=&#34;preloader&#34;&gt;
+                  <span class="html-comment">&lt;!--Preloader Code Goes Here--&gt;</span>
+                &lt;/div&gt;
+                 
+                <span class="html-comment">&lt;!--Intro Fullscreen Slideshow--&gt;</span>
+                &lt;section class=&#34;intro-slideshow&#34; id=&#34;home&#34;&gt;
+                  <span class="html-comment">&lt;!--Content Goes Here--&gt;</span>
+                &lt;/section&gt;
+                 
+                <span class="html-comment">&lt;!--Intro Title--&gt;</span>
+                &lt;section class=&#34;intro-title animated&#34;&gt;<span class="html-comment">&lt;!--class "animated" for animations (to disable animations simply remove it)--&gt;</span>
+                  <span class="html-comment">&lt;!--Content Goes Here--&gt;</span>
+                &lt;/section&gt;
+                 
+                <span class="html-comment">&lt;!--Wrapper--&gt;</span>
+                &lt;div id=&#34;wrapper&#34;&gt;<span class="html-comment">&lt;!--wrapper div for all content, it's dynamically assigned margin top,<br/> 
+                to ensure it doesn't overlap with the Intro Slideshow since it's position fixed--&gt;</span>
+                
+                    <span class="html-comment">&lt;!--Header--&gt;</span>
+                    &lt;header class=&#34;sticky&#34;&gt;
+                      <span class="html-comment">&lt;!--Header/Navigation Content Goes Here--&gt;</span>
+                    &lt;/header&gt;
+                     
+                    <span class="html-comment">&lt;!--About--&gt;</span>
+                    &lt;section class=&#34;block about&#34; id=&#34;about&#34;&gt;
+                      <span class="html-comment">&lt;!--Content Goes Here--&gt;</span>
+                    &lt;/section&gt;
+                     
+                    <span class="html-comment">&lt;!--Services Reservation--&gt;</span>
+                    &lt;section class=&#34;block reservation&#34; id=&#34;serv-reservation&#34;&gt;
+                        <span class="html-comment">&lt;!--Tabs--&gt;</span>
+                        &lt;div class=&#34;tab-content&#34;&gt;
+                            <span class="html-comment">&lt;!--Tabs Content Goes Here--&gt;</span>
+                        &lt;/div&gt;
+                    &lt;/section&gt;
+                     
+                    <span class="html-comment">&lt;!--News--&gt;</span>
+                    &lt;section class=&#34;block news&#34; id=&#34;news&#34;&gt;
+                      <span class="html-comment">&lt;!--Content Goes Here--&gt;</span>
+                    &lt;/section&gt;
+                     
+                    <span class="html-comment">&lt;!--App Presentation--&gt;</span>
+                    &lt;section class=&#34;block app&#34;&gt;
+                      <span class="html-comment">&lt;!--Content Goes Here--&gt;</span>
+                    &lt;/section&gt;
+                    
+                    <span class="html-comment">&lt;!--Contacts--&gt;</span>
+                    &lt;section class=&#34;block contacts&#34; id=&#34;contacts&#34;&gt;
+                      <span class="html-comment">&lt;!--Content Goes Here--&gt;</span>
+                    &lt;/section&gt;
+                     
+                    <span class="html-comment">&lt;!--Footer--&gt;</span>
+                    &lt;footer&gt;
+                      <span class="html-comment">&lt;!--Footer Content Goes Here--&gt;</span>
+                    &lt;/footer&gt;
+                  
+                &lt;/div&gt;<span class="html-comment">&lt;!--Close Wrapper--&gt;</span>
+                 
+              </code></pre>
+              
+              <h3>Replacing Images and Slides</h3>
+              <h4>Intro Background Slideshow</h4>
+              <p>To change slides in the Intro Background Slideshow you need to go to <strong>Eattie / img / intro</strong></p>
+              <p>The slides size we used are: <strong>2560x1536px</strong> in order to give sharp look on big screens. You can add pictures with smaller resolution to facilitate your needs.</p>
+              <p>To add/remove slides you need to edit HTML code below. Please note that if leave only one slide you disable slideshow and Intro section will become static background image. Each slide represented by <strong>&lt;li&gt; tag</strong>.</p>
+              <pre><code>
+                <span class="html-comment">&lt;!--Intro Fullscreen Slideshow--&gt;</span>
+                  &lt;section class=&#34;intro-slideshow&#34; id=&#34;home&#34;&gt;
+                     &lt;ul&gt;
+                        &lt;li style="background-image: url(img/intro/1.jpg)"&gt;&lt;/li&gt;
+                        &lt;li style="background-image: url(img/intro/2.jpg)"&gt;&lt;/li&gt;
+                        &lt;li style="background-image: url(img/intro/3.jpg)"&gt;&lt;/li&gt;
+                     &lt;/ul&gt;
+                  &lt;/section&gt;
+              </code></pre>
+              <h4>About Section Images</h4>
+              <p>To change images in the About section you need to go to <strong>Eattie / img / about</strong></p>
+              <p>The slides size we used are: <strong>2560x570px</strong> in order to give sharp look on big screens. You can add pictures with smaller resolution <strong>(height should stay 570px)</strong> to facilitate your needs.</p>
+              <p>To add/remove slides you need to edit HTML code below. <strong>Please note the number of divs in "info-slider" and number of images in "about-slider-inner" should be the same, since it's two sliders in one.</strong></p>
+              <pre><code>
+                  &lt;div class=&#34;info-slider&#34;&gt;
+                     &lt;div&gt;
+                     	...
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+                  
+                  &lt;div class=&#34;about-slider-inner&#34;&gt;
+                    &lt;div&gt;&lt;img src="img/about/1.jpg" width="1920" height="570" alt="Slide1"/&gt;&lt;/div&gt;
+                    &lt;div&gt;&lt;img src="img/about/2.jpg" width="1920" height="570" alt="Slide2"/&gt;&lt;/div&gt;
+                    &lt;div&gt;&lt;img src="img/about/3.jpg" width="1920" height="570" alt="Slide3"/&gt;&lt;/div&gt;
+                  &lt;/div&gt;
+              </code></pre>
+              <h4>Menu (1 column layout) / Reviews</h4>
+              <p>To change background images in the <strong>Menu</strong> you need to go to <strong>Eattie / img / menu</strong></p>
+              <p>To change background images in the <strong>Recipes</strong> you need to go to <strong>Eattie / img / recipes</strong></p>
+              <p><strong>Please note the number of <strong>Menu / Recipes items</strong> should be exactly the same as divs in <strong>&lt;div class="fsbg"&gt;</strong></strong></p>
+              <p>To add/remove images you need to edit HTML code below:</p>
+              <pre><code>
+                &lt;div class="fsbg"&gt;
+                
+                  &lt;--The id (like id="r_1") of the div element should correspond with the rel attribute (like rel="r_1") of the link below.--&gt;
+                  
+                  &lt;div class="visible" style="background-image: url(img/menu/default.jpg)"&gt;&lt;/div&gt;
+                  &lt;div id="m_1" style="background: url(img/menu/m_1.jpg)"&gt;&lt;/div&gt;
+                  &lt;div id="m_2" style="background: url(img/menu/m_2.jpg)"&gt;&lt;/div&gt;
+                  ......
+                  
+                &lt;/div&gt;
+              </code></pre>
+              <h3>Changing Social Icons</h3>
+              <p>There are two places where you find social icons in the template: <strong>Intro Title Section; Footer</strong>. They are Font Awsome icons which means you can easily change them by replacing <strong>fa-iconName class.</strong></p>
+              <p>For the full list of possible icon classes please visit <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a></p>
+              <h3>Disabling / Changing Scroll Animations</h3>
+              <p>If you want to disable content animations on scroll you simply need to remove <strong>"animation" class</strong> from the element.</p>
+              <p>In order to change animation effects you need to find the element and edit <strong>attribute "data-animation="AnimationName"".</strong> We included <strong>animate.css</strong> library, so to see the full list of animations please visit <a href="http://daneden.github.io/animate.css/" target="_blank">http://daneden.github.io/animate.css/</a></p>
+            </div><!--/Tabs Pane-->
+            
+            <!--Tabs Pane-->
+            <div id="EditCSS" class="tabs-pane">
+              <h2>Changing Look and Feel (Editing CSS Files)</h2>
+              <p>There are two CSS files that affect this template: <strong>bootstrap.min.css; style.css</strong>.</p>
+              <p><strong>bootstrap.min.css</strong> - is Bootstrap 3.0 .css file which enables responsiveness. It's template totally based on Bootstrap 3.0 grid. To learn more about Bootstrap 3.0 please visit <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></p>
+              <p><strong>style.css</strong> - is the stylesheet with all styles relating to this template. So whatever you need to change, change it here.</p>
+              <h3>Changing Typography</h3>
+              <p>To change typography styles you need to go to <strong>"Global Styles"</strong> section of the .css file. It's line #33. Here you can globally change <strong>font, font color, font size, paragraphs styles.</strong></p>
+              <pre><code>
+                <span class="html-comment">/*Global Styles*/</span>
+                  body {
+                    font-family: 'Marmelad', Arial, Helvetica, sans-serif;
+                  }
+                  p {
+                    font: 0.9em 'PT Sans', Arial, Helvetica, sans-serif;
+                    text-align: justify;
+                  }
+                  ...................................................
+              </code></pre>
+              <h3>Changing Headings</h3>
+              <p>In order to change <strong>size/font size</strong> of headings you need to edit following rules:</p>
+              <pre><code>
+                .block .heading {
+                  text-align: center;
+                  padding: 24px 20px;
+                }
+                .block .heading h2 {
+                  color: #fff;
+                  font-size: 1.5em;
+                }
+                ...................................................
+              </code></pre>
+              <p>In order to change <strong>background color/font color</strong> of headings you need to edit rules of individual section. For example, if you need to change background color/font color of About Section Heading you edit following rules*:</p>
+              <pre><code>
+                .about .heading {
+                  color: #393443;
+                  background-color: #393443;
+                }
+              </code></pre>
+              <p>*It is the same for other content sections, just instead of .about class used other class names according to the name of the section.</p>
+              <h3>Changing Background Slideshow Transition Animations</h3>
+              <p>If you need to change Background Slideshow transition animations you will do this in <strong>"Intro Fullscreen Slideshow" section of the style.css file (line #116)</strong>. Since it's pure CSS3 transitions just edit code below:</p>
+              <pre><code>
+                <span class="html-comment">/*Intro Fullscreen Slideshow*/</span>
+                ...................................................
+                  .intro-slideshow ul li.current {
+                    opacity: 1;
+                    filter: alpha(opacity=100);/*for ie8*/
+                  }
+                ...................................................
+              </code></pre>
+              <h3>Changing Forms Styles</h3>
+              <p>You can globally change the look of the form inputs in <strong>"Forms" section of the style.css file (line #716)</strong>.</p>
+              <h3>Changing Other Styles</h3>
+              <p>CSS files segmented and commented the same way as HTML files. So, for example, if you want to change Footer styles you need to go to the relevant section in the CSS file.</p>
+            </div><!--/Tabs Pane-->
+            
+            <!--Tabs Pane-->
+            <div id="Plugins" class="tabs-pane">
+              <h2>jQuery Plugins (Editing JS Files)</h2>
+              <h3>Plugins Used</h3>
+              <p>While creating this template we used some Javascript (jQuery) plugins to extend its functionality:<strong>*</strong></p>
+              <p><strong><a href="http://jquery.com/" target="_blank">jQuery v1.10.2</a></strong> - most popular feature-rich JavaScript library.</p>
+              <p><strong><a href="http://jqueryui.com/datepicker/" target="_blank">jQuery UI Datepicker</a></strong> - most popular jQuery UI library.</p>
+              <p><strong><a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">jQuery Easing v1.3</a></strong> - add-on for jQuery to create nice easing effects.</p>
+              <p><strong><a href="http://modernizr.com/" target="_blank">Modernizr</a></strong> - JavaScript library that detects HTML5 and CSS3 features in the user’s browser.</p>
+              <p><strong><a href="https://github.com/scottjehl/Respond" target="_blank">Respong.js</a></strong> - script enables responsive web designs in browsers that don't support CSS3 Media Queries - in particular, Internet Explorer 8 and under.</p>
+              <p><strong><a href="http://labs.rampinteractive.co.uk/touchSwipe/demos/" target="_blank">TouchSwipe</a></strong> - Plugin that enables touch/swipe functionality on mobile devices.</p>
+              <p><strong><a href="http://jquery.malsup.com/cycle/" target="_blank">jQuery Cycle</a></strong> - jQuery Slideshow Plugin.</p>
+              <p><strong><a href="http://imakewebthings.com/jquery-waypoints/" target="_blank">jQuery Waypoints</a></strong> - plugin that makes it easy to execute a function whenever you scroll to an element.</p>
+              <p><strong><a href="http://jqueryvalidation.org/" target="_blank">jQuery Validate</a></strong> -  Clientside Form Validation Plugin.</p>
+              <p><strong><a href="https://github.com/jonthornton/jquery-timepicker" target="_blank">jQuery Timepicker</a></strong> -  Lightweight Timepicker Plugin.</p>
+              <p><strong>*</strong>To get more detailed information about how to use / customize these plugins please visit their official websites.</p>
+              <p><strong>Please be informed that we DO NOT provide support to any third party plugin's. We can only answer simple usage questions or issues related to incompatibility with the template.</strong></p>
+              <h3>Editing JS Files</h3>
+              <p>Like with HTML and CSS files to customize the JavaScript functionality of the template you need to edit <strong>scripts-main.js file for Home page</strong> and <strong>scripts-secondary.js file for Other (Secondary) pages</strong>.</p>
+              <p>These files holding all custom JavaScript code for the template. They are properly commented so you easily find nesessary code snippet to modify.</p>
+              <h3>Changing Background Slideshow Delay Time</h3>
+              <p>If you want to change delay time of Fullscreen Background Slideshow you need to go to <strong>main / Eattie / js / scripts-main.js</strong> to section called "Intro Fullscreen Slideshow Function" and edit figure in bold (value 700ms = 7s).</p>
+              <pre><code>
+                <span class="html-comment">/*Intro Fullscreen Slideshow Function*/</span>
+                var slider = {
+                    currentSlide: 0,
+                    currentTitle: 0,
+                    <strong>timeOut: 7000,</strong>
+                ...................................................
+              </code></pre>
+            </div><!--/Tabs Pane-->
+            
+            <!--Tabs Pane-->
+            <div id="Photoshop" class="tabs-pane">
+              <h2>Photoshop Files</h2>
+              <p>All Photoshop files related to this template you will find in the <strong>PSD folder</strong>.</p>
+              <p class="underline">There are 7 .psd files:</p>
+              <p><strong>home.psd</strong> - Layered psd file of Home page;</p>
+              <p><strong>menu1.psd</strong> - Layered psd file of 1 column Menu layout (Accordion);</p>
+              <p><strong>menu2.psd</strong> - Layered psd file of 2 columns Menu layout;</p>
+              <p><strong>recipes.psd</strong> - Layered psd file of Recipes page;</p>
+              <p><strong>recipes-single.psd</strong> - Layered psd file of open recipe page;</p>
+              <p><strong>reviews.psd</strong> - Layered psd file of Reviews page;</p>
+              <p><strong>reviews-single.psd</strong> - Layered psd file of open review page;</p> 
+              <h3>Photoshop Layers</h3>
+              <p>All layers are grouped and named according to content blocks of the template. So it will be easy to spot the piece of content you want to modify.</p>
+              <img src="img/screenshots/photoshop_layers.jpg" alt="Photoshop Layers"/>
+              <p>To learn more about how to use Photoshop to edit images and graphics we recommend <a href="http://tv.adobe.com/videos/photoshop/" target="_blank"><strong>Photoshop on Adobe TV</strong></a></p>
+            </div><!--/Tabs Pane-->
+            
+            <!--Tabs Pane-->
+            <div id="Credits" class="tabs-pane">
+              <h2>Sources and Credits</h2>
+              <p>While making this theme we used third party images, icons, fonts, etc... and want to thank their creators:</p>
+              <ul>
+              	<li>Pictures, icons, mockups:<br/>
+                	<a href="http://dribbble.com/shots/955745-Cooking-Icons?list=searches" target="_blank">http://dribbble.com/shots/955745-Cooking-Icons?list=searches</a><br/>
+                  <a href="http://yummicon.com/" target="_blank">http://yummicon.com/</a><br/>
+                	<a href="http://medialoot.com/item/thin-vector-christmas-icons/" target="_blank">http://medialoot.com/item/thin-vector-christmas-icons/</a><br/>
+                	<a href="http://dribbble.com/shots/829545--PSD-iMac-MacBook-Retina?list=searches" target="_blank">http://dribbble.com/shots/829545--PSD-iMac-MacBook-Retina?list=searches</a><br/>
+                	<a href="http://www.flickr.com/photos/rpavich/11457322316/" target="_blank">http://www.flickr.com/photos/rpavich/11457322316/</a><br/>
+                	<a href="http://www.flickr.com/photos/jseita/11112852645/" target="_blank">http://www.flickr.com/photos/jseita/11112852645/</a><br/>
+                	<a href="http://www.flickr.com/photos/vauvau/4311612078/" target="_blank">http://www.flickr.com/photos/vauvau/4311612078/</a><br/>
+                	<a href="http://pixabay.com/en/" target="_blank">http://pixabay.com/en/</a><br/>
+                </li>
+              	<li>FontAwsome icons <a href="http://fontawesome.io/" target="_blank">http://fontawesome.io</a></li>
+              	<li>Bootstrap 3.0 <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></li>
+              	<li>jQuery Library <a href="http://jquery.com/" target="_blank">http://jquery.com</a></li>
+              	<li>jQuery Easing Plugin <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">http://gsgd.co.uk/sandbox/jquery/easing</a></li>
+              	<li>Modernizr <a href="http://modernizr.com/" target="_blank">http://modernizr.com</a></li>
+              	<li>Respong.js <a href="https://github.com/scottjehl/Respond" target="_blank">https://github.com/scottjehl/Respond</a></li>
+              	<li>jQuery UI (Datepicker) <a href="http://jqueryui.com/datepicker/" target="_blank">http://jqueryui.com/datepicker/</a></li>
+              	<li>Timepicker <a href="https://github.com/jonthornton/jquery-timepicker" target="_blank">https://github.com/jonthornton/jquery-timepicker</a></li>
+              	<li>jQuery Cycle <a href="http://jquery.malsup.com/cycle/" target="_blank">http://jquery.malsup.com/cycle/</a></li>
+              	<li>jQuery touchSwipe <a href="http://labs.rampinteractive.co.uk/touchSwipe/demos/" target="_blank">http://labs.rampinteractive.co.uk/touchSwipe/demos/</a></li>
+              	<li>jQuery Waypoints <a href="http://imakewebthings.com/jquery-waypoints/" target="_blank">http://imakewebthings.com/jquery-waypoints/</a></li>
+              	<li>jQuery Raty <a href="http://wbotelhos.com/raty/" target="_blank">http://wbotelhos.com/raty/</a></li>
+              	<li>jQuery Validation <a href="http://jqueryvalidation.org/" target="_blank">http://jqueryvalidation.org/</a></li>
+              </ul>
+              <p><strong>All the third-party assets used in this template are free for personal and commercial use.</strong></p>
+            </div><!--/Tabs Pane-->
+            
+          </div><!-- Close all Panes -->
+        </div>
+      </div><!-- Close Container -->
+    
+    </div><!--Close Wrapper-->
+    
+    <!--Footer-->
+    <div class="footer">
+      <div class="container">
+        <div class="support-message">
+          <p>Dear User, thank you for purchasing our template!  If you have any questions that are beyond the scope of this help file, please feel free to email us using the link below.</p>
+          <a class="normal" href="mailto:support@8guild.com">support@8guild.com</a>
+        </div>
+          <div class="copyright">&copy; 2015 8 Guild. All Rights Reserved.</div>
+      </div>
+    </div><!--Close Footer-->
+  
+  </body><!--Close Body-->
+  
+  <!--Javascript-->
+	<script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  
+</html>
